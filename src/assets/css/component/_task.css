@@ -1,0 +1,54 @@
+.kanban__list {
+    padding: 10px;
+}
+
+.task {
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 30px;
+    color: black;
+}
+
+.task_footer--level {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 5px;
+}
+
+.task__day {
+    background-color: #ECB800;
+    color: white;
+    border-radius: 7px;
+    padding: 5px;
+    width: fit-content;
+    margin-bottom: 5px;
+}
+
+.task__allLi li {
+    display: inline-block;
+    margin: 5px;
+    background-color: #ECB800;
+    width: 22px;
+    height: 11px;
+    border-radius: 0px 4px 4px 15px;
+}
+
+.task__footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.task__date {
+    color: #2B1887;
+    ;
+}
+
+.indicator  {
+    background-color: grey;
+}

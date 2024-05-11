@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./src/assets/css/index.css">
+  <title>To-Do-List-Kanban</title>
+</head>
+
+<body>
+  <header class="header">
+    <h1 class="header__title">Kanban Board</h1>
+  </header>
+
+  <main class="kanban">
+    <section class="kanban__column kanban__column--to-do">
+      <h2 class="kanban__title">Задачи</h2>
+      <div class="kanban__list">
+        <div class="task">
+          <h3 class="task__nameProj">Create wireframes</h3>
+          <div class="task__footer">
+            <div class="task_footer--level">
+              <div class="task__day">Fri</div>
+              <ul class="task__allLi">
+                <li></li>
+                <li></li>
+                <li class="indicator indicator—gray"></li>
+              </ul>
+            </div>
+            <span class="task__date">10.05.2024</span>
+          </div>
+        </div>
+
+        <div class="task">
+          <h3 class="task__nameProj">Create light and dark mode</h3>
+          <div class="task__footer">
+            <div class="task_footer--level">
+              <div class="task__day">Wed</div>
+              <ul class="task__allLi">
+                <li></li>
+                <li></li>
+                <li></li>
+              </ul>
+            </div>
+            <span class="task__date">10.05.2024</span>
+          </div>
+        </div>    
+    </section>
+
+  
+    <section class="kanban__column kanban__column--in-progress">
+      <h2 class="kanban__title">В процессе</h2>
+    </section>
+
+    <section class="kanban__column kanban__column--done">
+      <h2 class="kanban__title">Выполнено</h2>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p class="footer__text">To-Do-List-Kanban</p>
+  </footer>
+</body>
+<script src="./src/assets/js/index.js"></script>
+
+</html>
