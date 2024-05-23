@@ -1,0 +1,62 @@
+.kanban__in--progress {
+    padding: 10px;
+}
+
+
+.in--progress {
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 30px;
+    color: black;
+    
+}
+
+.in--progress_footer--level {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 5px;
+}
+
+.in--progress__day {
+    background-color: #E42C5F;
+    color: white;
+    border-radius: 7px;
+    padding: 5px;
+    width: fit-content;
+    margin-bottom: 5px;
+}
+
+.in--progress__allLi li {
+    display: inline-block;
+    margin: 5px;
+    background-color: #E42C5F;
+    width: 22px;
+    height: 11px;
+    border-radius: 0px 4px 4px 15px;
+}
+
+.in--progress__footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.in--progress__date {
+    color: #2B1887;
+}
+
+.in--progress__allLi--two li{
+    display: inline-block;
+    margin: 5px;
+    background-color: #E42C5F;
+    width: 22px;
+    height: 11px;
+    border-radius: 0px 4px 4px 15px;
+    margin-top: 15px; 
+}
+
